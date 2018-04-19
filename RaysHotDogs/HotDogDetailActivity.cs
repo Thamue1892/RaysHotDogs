@@ -8,7 +8,7 @@ using System;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "Hot Dog Details", MainLauncher = true)]
+    [Activity(Label = "Hot Dog Details")]
     public class HotDogDetailActivity : Activity
     {
         private ImageView hotDogImageView;

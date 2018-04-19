@@ -47,8 +47,8 @@ namespace RaysHotDogs
 			// aapt resource value: 0x7f040007
 			public const int amountEditText = 2130968583;
 			
-			// aapt resource value: 0x7f040009
-			public const int button1 = 2130968585;
+			// aapt resource value: 0x7f04000a
+			public const int button1 = 2130968586;
 			
 			// aapt resource value: 0x7f040006
 			public const int cancelButton = 2130968582;
@@ -58,6 +58,9 @@ namespace RaysHotDogs
 			
 			// aapt resource value: 0x7f040001
 			public const int hotDogImageView = 2130968577;
+			
+			// aapt resource value: 0x7f040009
+			public const int hotDogListView = 2130968585;
 			
 			// aapt resource value: 0x7f040002
 			public const int hotDogNameTextView = 2130968578;
@@ -91,7 +94,10 @@ namespace RaysHotDogs
 			public const int HotDogDetailView = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Main = 2130837505;
+			public const int HotDogMenuView = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Main = 2130837506;
 			
 			static Layout()
 			{
