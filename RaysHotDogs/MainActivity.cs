@@ -3,7 +3,7 @@ using Android.OS;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "RaysHotDogs", MainLauncher = true)]
+    [Activity(Label = "RaysHotDogs")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
