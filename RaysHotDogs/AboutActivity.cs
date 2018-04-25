@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
+using System;
 
 namespace RaysHotDogs
 {
@@ -19,7 +13,7 @@ namespace RaysHotDogs
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            
+
             SetContentView(Resource.Layout.AboutView);
 
             FindViews();
@@ -38,7 +32,7 @@ namespace RaysHotDogs
 
         private void PhoneNumberTextView_Click(object sender, EventArgs e)
         {
-            var intent=new Intent(Intent.ActionCall);
+            var intent = new Intent(Intent.ActionCall);
             intent.SetData(Android.Net.Uri.Parse("tel:" + phoneNumberTextView.Text));
             StartActivity(intent);
         }
